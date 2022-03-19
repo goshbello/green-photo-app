@@ -63,6 +63,7 @@ end
 gem 'devise' # devise gem
 gem "devise-i18n" #devise bootstrap styling gem
 gem "devise-bootstrap5"  #devise bootstrap styling gem
+gem "devise-bootstrap-views" # to auto add bootstrap styling to devise views
 gem 'font-awesome-rails'  # to allows to use font-awesome
 gem 'hirb'
 
