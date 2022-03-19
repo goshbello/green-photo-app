@@ -27,13 +27,13 @@ gem 'jbuilder', '~> 2.7'
 gem 'bootsnap', '>= 1.4.4', require: false
 
 group :development, :test do
+  # Use sqlite3 as the database for Active Record
+  gem 'sqlite3', '~> 1.4'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
 
 group :development do
-  # Use sqlite3 as the database for Active Record
-  gem 'sqlite3', '~> 1.4'
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
   gem 'web-console', '>= 4.1.0'
   # Display performance information such as SQL time and flame graphs for each request in your browser.
@@ -58,3 +58,12 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 group :production do
   gem 'pg'
 end
+
+# added gems
+gem 'devise' # devise gem
+gem "devise-i18n" #devise bootstrap styling gem
+gem "devise-bootstrap5"  #devise bootstrap styling gem
+gem 'font-awesome-rails'  # to allows to use font-awesome
+gem 'hirb'
+
+# end of gems added
