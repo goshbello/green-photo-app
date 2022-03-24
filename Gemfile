@@ -68,4 +68,9 @@ gem 'font-awesome-rails'  # to allows to use font-awesome
 gem 'hirb'
 gem 'stripe'
 
+gem 'carrierwave' # image uploader gem
+gem 'mini_magick' # image resizing gem
+#gem 'fog' # help to work images in production
+gem 'fog-aws'  # help to work images in production
+
 # end of gems added
